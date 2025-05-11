@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Untuk Kamu yang Tercinta 🩷</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: rgba(255, 192, 203, 0.8); /* pink lembut */
+      overflow-x: hidden;
+    }
+
+    .bg-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      padding-top: 3rem;
+      padding-bottom: 5rem;
+    }
+
+    .card {
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+
+    .card img {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .caption {
+      color: #e91e63;
+      font-weight: bold;
+    }
+
+    h1 {
+      color: white;
+      text-shadow: 2px 2px 5px hotpink;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop class="bg-video">
+    <source src="anything.mp4" type="video/mp4">
+    Browser kamu tidak mendukung video background.
+  </video>
+  <!-- Musik Background -->
+  <audio id="bg-music" autoplay loop muted>
+  <source src="theonly.mp3" type="audio/mpeg">
+</audio>
+<script>
+  document.addEventListener('click', function () {
+    const audio = document.getElementById('bg-music');
+    audio.muted = false;
+    audio.play();
+  }, { once: true });
+</script>
+  <!-- Konten Utama -->
+   <!-- Tombol Love Letter -->
+  <div class="container content text-center">
+    <h1 class="mb-5">our memories 🥺💕</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Card 1 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="foto1.jpg" class="card-img-top img-fit" alt="Kita">
+          <div class="card-body d-flex flex-column">
+            <p class="caption">Cuteee b0ooyyy 💕</p>
+            <p>he is my cutest boyfriend. lucuu yaaa senyumnyaa ada gingsulnyaaa. </php>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col">
+      <div class="card h-100">
+          <img src="pian.jpg" class="card-img-top img-fit" alt="Momen Bahagia">
+          <div class="card-body d-flex flex-column">
+            <p class="caption">my good looking bo00yy 🥰</p>
+            <p>i fall in love with you all over again everyday. Pertama kali kita ketemu, rasanya senang banget. Akhirnya, aku bisa bertemu dengan seseorang yang membuat hari-hariku lebih berarti. Sejak saat itu, semuanya jadi terasa lebih indah, dan aku nggak pernah berhenti bersyukur bisa ada di sampingmu.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="hug.jpg" class="card-img-top img-fit" alt="Peluk Cinta">
+          <div class="card-body d-flex flex-column">
+            <p class="caption">first hug, forever special.🫂</p>
+            <p>this is the first time i’ve ever been hugged by a guy, other than my brother. Rasanya kayak dunia berhenti sejenak, dan aku cuma mau menikmati momen ini selamanya. Terima kasih udah buat aku merasa spesial, kamu emang beda dari yang lain.</p>
+          </div>
+        </div>
+      </div>
+            <!-- Card 4 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="kotlam.jpg" class="card-img-top img-fit" alt="Peluk Cinta">
+          <div class="card-body d-flex flex-column">
+            <p class="caption">i'm happy</p>
+            <p>Pertama kali ketemu kamu, aku udah siap awkward, siap salah ngomong, siap kabur kalau garing... tapi ternyata? Nyaman banget, kayak nemu colokan pas baterai 2% 🔋
+            engga ngerti deh, obrolan ngalor-ngidul, gombalan absurd, sampe ketawa gara-gara hal nggak penting - semuanya klik aja. Kita gak butuh momen wow, karena ternyata yang bikin nempel di kepala justru momen receh tapi hangat. Thanks for that first meet yang rasanya “wah” meski kelihatannya “biasa aja”.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="aku.jpg" class="card-img-top img-fit" alt="Momen Bahagia">
+          <div class="card-body d-flex flex-column">
+            <p class="caption">it's me, your girl. Always happy to be in your arms.</p>
+            <p>i fall in love with you all over again every single day. Pertama kali kita ketemu, rasanya senang banget. Akhirnya, aku bisa bertemu dengan seseorang yang membuat hari-hariku lebih berarti. Sejak saat itu, semuanya jadi terasa lebih indah, dan aku nggak pernah berhenti bersyukur bisa ada di sampingmu.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="1bln.jpg" class="card-img-top img-fit" alt="Momen Bahagia">
+          <div class="card-body d-flex flex-column">
+            <p class="caption">1 Month of chaos, sweet, and cemilan</p>
+            <p>Nggak nyangka udah 1 bulan bareng kamu... walau sempet saling blokir 😆. Dari ribut cuma karena salah baca chat, sampe ketawa bareng cuma gara-gara jokes dan gombalan ga jelas.
+               semuanya bikin makin sayang (dan makin tahan mental). Mari lanjut, rayain tiap hal kecil - dari chat “udah makan?” sampe debat. You’re weird, but you’re my kind of weird ❤️</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+<section class="timeline">
+  <h2>Our Journey 💞</h2>
+  <div class="timeline-container">
+    <div class="timeline-item left">
+    <img src="chat.jpg" class="card-img-top img-fit" alt="Momen Bahagia">
+      <div class="content">
+        <h3>First Chat</h3>
+        <p>Jadi pertama kali kita kenal di Telegram, kamu like foto aku, aku like balik, dan tanpa sadar obrolan kita jadi nyambung banget. Awalnya cuma obrolan biasa, tapi entah kenapa kamu malah mulai baper. Aku sih seneng banget karena kamu ngerasa nyaman dan akhirnya berani ngungkapin perasaan kamu ke aku. Ternyata, obrolan santai bisa bawa kita ke sini, ya?</p>
+      </div>
+    </div>
+    <div class="timeline-item right">
+    <img src="potobut.jpg" class="card-img-top img-fit" alt="Momen Bahagia">
+      <div class="content">
+        <h3>First Meet</h3>
+        <p>Deg-degan tapi seneng! ini pertama kali photobooth</p>
+      </div>
+    </div>
+    <div class="timeline-item left">
+    <img src="nonton.jpg" class="card-img-top img-fit" alt="Momen Bahagia">
+      <div class="content">
+        <h3>First Date</h3>
+        <p>AHAHAH first date kita nonton, pabrik gula bakal jadi cerita untuk kita berdua.</p>
+      </div>
+    </div>
+    <div class="timeline-item right">
+    <img src="nyender.jpg" class="card-img-top img-fit" alt="Momen Bahagia">
+      <div class="content">
+        <h3>First Hug</h3>
+        <p>Peluk pertama, sebenernya engga peluk juga, tapi rangkul. Tapi di sini aku nyaman banget karena saat aku nyender kamu pat pat dan elus kepala aku sampai aku ketiduran, rasanya nyaman banget. </p>
+      </div>
+    </div>
+  </div>
+  <div class="mt-5">
+    <button class="btn btn-danger btn-lg rounded-pill shadow" data-bs-toggle="modal" data-bs-target="#loveLetterModal">
+      Click Here! 💌
+    </button>
+  </div>
+  <a href="slideshow.html" class="btn btn-pink mt-4">Lihat Semua Kenangan 💞</a>
+
+</section>
+   <!-- Modal Love Letter -->
+   <div class="modal fade" id="loveLetterModal" tabindex="-1" aria-labelledby="loveLetterModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="background: #fff0f5;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loveLetterModalLabel">This is for you 💖</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+      </div>
+      <div class="modal-body" style="font-family: 'Segoe UI'; color: #d63384;">
+      Sayangku...<br><br>
+      Terima kasih ya udah hadir dalam hidup aku. Hari-hari aku jadi lebii cerah, lebii lucu, dan penuh makna sejak kenal kamu. Setiap pelukanmu, senyummu, dan bahkan ledekan recehmu – semuanya aku simpan baik-baik di hati.<br><br>
+      Aku gak butuh hal besar, cukup kamu tetap di sini, sama aku. Karena kamu itu rumah, nyaman banget 🏡💕<br><br>
+      Kamu tahu nggak? Aku sering mikir, dari semua kemungkinan semesta, kenapa harus kamu yang datang ke hidup aku? Dan tiap kali aku mikir gitu, jawabannya selalu sama: karena cuma kamu yang bisa bikin aku merasa seutuh ini. Disayang, dimengerti, dihargai, ditenangin — semuanya aku temuin di kamu.<br><br>
+      Setelah keluarga, kamu adalah laki-laki paling penting dalam hidup aku. Bukan karena kamu sempurna, tapi karena kamu hadir dengan tulus, apa adanya, dan tetap mau tinggal bahkan di sisi-sisi aku yang nggak semua orang bisa terima.<br><br>
+      Kamu bukan cuma pacar, kamu sahabat, pelindung, tempat pulang, dan orang yang bisa bikin aku lupa dunia kalau lagi bareng kamu. Aku gak tahu masa depan bakal kayak apa, tapi selama kamu masih mau genggam tangan ini, aku siap jalan sejauh-jauhnya.<br><br>
+      Kalau dunia ini keras, kamu tuh peluk yang lembut. Kalau aku jatuh, kamu jadi tangan pertama yang narik aku berdiri lagi. Kamu bikin aku pengen jadi versi terbaik dari diriku sendiri — bukan karena kamu maksa, tapi karena kamu percaya aku bisa.<br><br>
+      Aku nggak janji hubungan kita bakal selalu mulus, tapi aku janji, setiap kamu lelah... kamu bisa pulang. Ke aku. Ke kita. 💞<br><br>
+      Terima kasih karena udah jadi laki-laki yang selalu ada setelah keluargaku, dan yang selalu bikin aku percaya, bahwa cinta yang tulus itu nyata. ❤️<br><br>
+      Love you always, in ways words will never be enough to explain.<br><br>
+      <i>— dari cewek paling bersyukur bisa milikin kamu 🥺</i>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<style>
+  .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.img-fit {
+  height: 300px;        /* atau sesuai kebutuhan */
+  object-fit: cover;
+}
+/* Tambahkan ke CSS kamu */
+.timeline {
+  background: #ffeef4;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.timeline h2 {
+  font-size: 2em;
+  color: #ff5c8d;
+  margin-bottom: 40px;
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+}
+
+.timeline-item {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.timeline-item.left {
+  left: 0;
+}
+
+.timeline-item.right {
+  left: 50%;
+}
+
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  background-color: #ff5c8d;
+  border: 3px solid white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item.right::after {
+  left: -10px;
+}
+
+.content {
+  padding: 20px;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.content h3 {
+  color: #ff5c8d;
+  margin-top: 0;
+}
+
+.content p {
+  margin: 10px 0 0;
+  color: #333;
+}
+
+/* Garis tengah */
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: #ffb6c1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .timeline-item {
+    width: 100%;
+    left: 0 !important;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .timeline-item.right::after,
+  .timeline-item.left::after {
+    left: 15px;
+  }
+
+  .timeline-container::before {
+    left: 20px;
+  }
+}
+.floating-heart {
+  position: absolute;
+  font-size: 20px;
+  color: #ff69b4;
+  animation: float-up 2s ease-out forwards;
+  z-index: 9999;
+}
+@keyframes float-up {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
+.floating-heart::before {
+  content: '💖';
+}
+</style>
+<script>
+  document.addEventListener('click', function (e) {
+  const heart = document.createElement('div');
+  heart.className = 'floating-heart';
+  heart.style.left = e.clientX + 'px';
+  heart.style.top = e.clientY + 'px';
+  document.body.appendChild(heart);
+
+  setTimeout(() => {
+    heart.remove();
+  }, 2000);
+});
+</script>
